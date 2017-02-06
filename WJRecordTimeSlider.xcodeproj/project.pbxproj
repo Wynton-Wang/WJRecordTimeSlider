@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		5226E9221E48065A00B11929 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226E9211E48065A00B11929 /* main.m */; };
 		5226E9251E48065A00B11929 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226E9241E48065A00B11929 /* AppDelegate.m */; };
-		5226E9281E48065A00B11929 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226E9271E48065A00B11929 /* ViewController.m */; };
 		5226E92B1E48065A00B11929 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5226E9291E48065A00B11929 /* Main.storyboard */; };
 		5226E92D1E48065A00B11929 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5226E92C1E48065A00B11929 /* Assets.xcassets */; };
 		5226E9301E48065A00B11929 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5226E92E1E48065A00B11929 /* LaunchScreen.storyboard */; };
+		5226E93C1E480DD800B11929 /* WJRecordTimeSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226E9391E480DD800B11929 /* WJRecordTimeSlider.m */; };
+		5226E93D1E480DD800B11929 /* WJRecordTimeSliderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5226E93B1E480DD800B11929 /* WJRecordTimeSliderVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,14 @@
 		5226E9211E48065A00B11929 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5226E9231E48065A00B11929 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5226E9241E48065A00B11929 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5226E9261E48065A00B11929 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5226E9271E48065A00B11929 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5226E92A1E48065A00B11929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5226E92C1E48065A00B11929 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5226E92F1E48065A00B11929 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5226E9311E48065A00B11929 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5226E9381E480DD800B11929 /* WJRecordTimeSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJRecordTimeSlider.h; sourceTree = "<group>"; };
+		5226E9391E480DD800B11929 /* WJRecordTimeSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJRecordTimeSlider.m; sourceTree = "<group>"; };
+		5226E93A1E480DD800B11929 /* WJRecordTimeSliderVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJRecordTimeSliderVC.h; sourceTree = "<group>"; };
+		5226E93B1E480DD800B11929 /* WJRecordTimeSliderVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJRecordTimeSliderVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +63,9 @@
 			children = (
 				5226E9231E48065A00B11929 /* AppDelegate.h */,
 				5226E9241E48065A00B11929 /* AppDelegate.m */,
-				5226E9261E48065A00B11929 /* ViewController.h */,
-				5226E9271E48065A00B11929 /* ViewController.m */,
+				5226E9371E480DD800B11929 /* WJRecordTimeSlider */,
+				5226E93A1E480DD800B11929 /* WJRecordTimeSliderVC.h */,
+				5226E93B1E480DD800B11929 /* WJRecordTimeSliderVC.m */,
 				5226E9291E48065A00B11929 /* Main.storyboard */,
 				5226E92C1E48065A00B11929 /* Assets.xcassets */,
 				5226E92E1E48065A00B11929 /* LaunchScreen.storyboard */,
@@ -77,6 +81,15 @@
 				5226E9211E48065A00B11929 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5226E9371E480DD800B11929 /* WJRecordTimeSlider */ = {
+			isa = PBXGroup;
+			children = (
+				5226E9381E480DD800B11929 /* WJRecordTimeSlider.h */,
+				5226E9391E480DD800B11929 /* WJRecordTimeSlider.m */,
+			);
+			path = WJRecordTimeSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +164,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5226E9281E48065A00B11929 /* ViewController.m in Sources */,
+				5226E93C1E480DD800B11929 /* WJRecordTimeSlider.m in Sources */,
 				5226E9251E48065A00B11929 /* AppDelegate.m in Sources */,
+				5226E93D1E480DD800B11929 /* WJRecordTimeSliderVC.m in Sources */,
 				5226E9221E48065A00B11929 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
